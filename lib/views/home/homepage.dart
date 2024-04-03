@@ -112,8 +112,7 @@ class Homepage extends StatelessWidget {
                                     ),
                                     Text(
                                       '@${quote.author}',
-                                      style: const TextStyle(
-                                          color: Colors.blue, fontSize: 12),
+                                      style: const TextStyle(fontSize: 12),
                                     ),
                                   ],
                                 ),
@@ -132,8 +131,7 @@ class Homepage extends StatelessWidget {
                               ),
                               Text(
                                 '@${quote.author}',
-                                style: const TextStyle(
-                                    color: Colors.blue, fontSize: 12),
+                                style: const TextStyle(fontSize: 12),
                               ),
                             ],
                           ),
@@ -155,7 +153,7 @@ class Homepage extends StatelessWidget {
                                 _addToFavorites(context, quote);
                               },
                               icon: const Icon(
-                                Icons.favorite_border,
+                                Icons.add_box_outlined,
                               ),
                             ),
                             IconButton(
@@ -178,7 +176,7 @@ class Homepage extends StatelessWidget {
                                 Share.share(quote.quote);
                               },
                               icon: const Icon(
-                                Icons.share,
+                                Icons.share_outlined,
                                 size: 20,
                               ),
                             ),

@@ -67,8 +67,7 @@ class QuoteDetail extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 20),
                         child: Text(
                           '@${quote.author}',
-                          style:
-                              const TextStyle(color: Colors.blue, fontSize: 12),
+                          style: const TextStyle(fontSize: 12),
                         ),
                       ),
                     ],

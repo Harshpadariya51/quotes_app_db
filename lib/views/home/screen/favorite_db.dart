@@ -74,7 +74,7 @@ class FavoritesScreenState extends State<FavoritesScreen> {
               child: const Text(
                 'Delete',
                 style:
-                    TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+                    TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
               ),
             ),
           ],
@@ -142,7 +142,8 @@ class FavoritesScreenState extends State<FavoritesScreen> {
                                   Text(
                                     '@${quote.author}',
                                     style: const TextStyle(
-                                        color: Colors.blue, fontSize: 12),
+                                      fontSize: 12,
+                                    ),
                                   ),
                                 ],
                               ),
