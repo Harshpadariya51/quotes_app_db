@@ -4,6 +4,7 @@
 | ![44](https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/936a9418-f762-4c51-b0f6-7c51d5854897) | ![55](https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/dff26569-1e21-45d8-a7c7-d586dcc40d92) | ![66](https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/978e5ffa-ee7f-407f-8cab-22542326c24c) |
 | ![77](https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/eab218ea-6132-4592-8c72-d6ab4d29ddb7) | ![88](https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/5315f0cc-6abe-42e7-af04-efc5d805f8c6) | ![99](https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/67a9a1f3-624a-405c-ad38-16f0d0054704) |
 
+
 # quotes_app_db
 
 A new Flutter project.
