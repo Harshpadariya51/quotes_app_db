@@ -1,7 +1,6 @@
 import 'package:get/get_rx/src/rx_types/rx_types.dart';
 import 'package:get/get_state_manager/src/simple/get_controllers.dart';
 import 'package:quotes_app_db/helper/api_helper.dart';
-import 'package:quotes_app_db/helper/quotedatabase_helper.dart';
 import 'package:quotes_app_db/models/quotes_model.dart';
 
 class QuoteController extends GetxController {
