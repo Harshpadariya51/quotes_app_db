@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:get/get.dart';
 import 'package:quotes_app_db/models/quotes_model.dart';
 import 'package:http/http.dart' as http;
 
@@ -25,6 +26,7 @@ class APIHelper {
               id: e['id'],
               quote: e['quote'],
               author: e['author'],
+              isFavorite: false.obs,
             ),
           )
           .toList();

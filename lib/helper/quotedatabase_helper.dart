@@ -1,6 +1,8 @@
-import 'package:path/path.dart';
-import 'package:quotes_app_db/models/quotes_model.dart';
+import 'package:quotes_app_db/views/home/homepage_controller.dart';
 import 'package:sqflite/sqflite.dart';
+import 'package:path/path.dart';
+import 'package:get/get.dart';
+import 'package:quotes_app_db/models/quotes_model.dart';
 
 class DatabaseHelper {
   static final DatabaseHelper instance = DatabaseHelper._privateConstructor();
@@ -33,6 +35,8 @@ class DatabaseHelper {
     final db = await database;
     await db.insert('quotes', quote.toMap(),
         conflictAlgorithm: ConflictAlgorithm.replace);
+    // Notify GetX to update the quotes list
+    Get.find<QuoteController>().fetchData();
   }
 
   Future<List<Quote>> getQuotes() async {
@@ -45,6 +49,7 @@ class DatabaseHelper {
           id: maps[i]['id'],
           quote: maps[i]['quote'],
           author: maps[i]['author'],
+          isFavorite: false.obs,
         );
       },
     );
@@ -52,6 +57,9 @@ class DatabaseHelper {
 
   Future<int> deleteQuote(int id) async {
     Database db = await instance.database;
-    return await db.delete('quotes', where: 'id = ?', whereArgs: [id]);
+    int deletedRows =
+        await db.delete('quotes', where: 'id = ?', whereArgs: [id]);
+    Get.find<QuoteController>().fetchData();
+    return deletedRows;
   }
 }

@@ -34,6 +34,7 @@ class FavoritesScreenState extends State<FavoritesScreen> {
           id: quote.id,
           quote: quote.quote,
           author: quote.author,
+          isFavorite: false.obs,
         );
       }).toList();
     });
@@ -42,6 +43,7 @@ class FavoritesScreenState extends State<FavoritesScreen> {
   Future<void> _deleteQuote(int id) async {
     await dbHelper.deleteQuote(id);
     setState(() {
+      favoriteQuotes.firstWhere((quote) => quote.id == id).isFavorite;
       favoriteQuotes.removeWhere((quote) => quote.id == id);
     });
   }
@@ -69,6 +71,7 @@ class FavoritesScreenState extends State<FavoritesScreen> {
               ),
               onPressed: () {
                 _deleteQuote(id);
+
                 Navigator.of(context).pop();
               },
               child: const Text(
