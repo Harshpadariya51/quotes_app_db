@@ -1,10 +1,8 @@
 | Image 1 | Image 2 | Image 3 |
 |---------|---------|---------|
-| <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/d4fa4d95-98f6-412c-aee2-ea352cbeb959" width="200" height="400"> | <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/aacbed7f-1990-411e-bd5d-0f301d4b5645" width="200" height="400"> | <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/a35f9b04-0671-4a65-b542-c6f24735e74c" width="200" height="400"> |
-| <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/936a9418-f762-4c51-b0f6-7c51d5854897" width="200" height="400"> | <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/dff26569-1e21-45d8-a7c7-d586dcc40d92" width="200" height="400"> | <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/978e5ffa-ee7f-407f-8cab-22542326c24c" width="200" height="400"> |
-| <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/eab218ea-6132-4592-8c72-d6ab4d29ddb7" width="200" height="400"> | <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/5315f0cc-6abe-42e7-af04-efc5d805f8c6" width="200" height="400"> | <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/67a9a1f3-624a-405c-ad38-16f0d0054704" width="200" height="400"> |
-
-
+| <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/e4d9478a-8037-4fb7-9f71-966eb2e6f8c3" width="200" height="400"> | <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/2e63da02-0117-4358-a84d-bbe556f4ced7" width="200" height="400"> | <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/ae55fa82-cd2c-4527-a7d9-12758094b933" width="200" height="400"> |
+| <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/920e0d3f-e25f-483c-b703-93d0041ba30b" width="200" height="400"> | <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/28288566-561e-4b6e-8ec1-0eddb3d8f8fd" width="200" height="400"> | <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/fe6a7e57-6bf0-4497-b387-a2d0513baefc" width="200" height="400"> |
+| <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/53495898-0015-41f7-81b4-ba25b133fe15" width="200" height="400"> | <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/a579b851-5951-4408-844f-b5da36a29e1e" width="200" height="400"> | <img src="https://github.com/Harshpadariya51/quotes_app_db/assets/135210889/e26f0ae4-7939-415d-a5f8-6ee95cab30ba" width="200" height="400"> |
 
 
 # quotes_app_db
